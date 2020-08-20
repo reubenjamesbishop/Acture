@@ -1,4 +1,4 @@
 # Acture
 eChallenge design repository
 
-Start here lmao
+Social media advertising isn’t an easy thing to get right. As more and more people pivot to social media as their primary form of engagement, end users are becoming saturated with advertising that isn’t relevant, useful or interesting. All the hard work poured into a campaign is useless if your posts are just scrolled past with eyes glazed over. Acture is a product to fix that problem for good. Acture provides clients with an online browser-based environment to simulate and test their campaign performance, and provide feedback on its potential performance based on a variety of proprietary metrics. Acture utilises a range of classical data-science and handcrafted learning algorithms to model and predict the ‘hard to guess’ details of post performance, including cut-through, engagement and overall success. Upload your post ideas, and receive instant feedback and tips on the content that can make or break even the most well thought out social campaigns. 
