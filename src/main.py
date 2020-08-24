@@ -2,8 +2,7 @@ import numpy as np
 import sklearn
 import pandas as pd
 
-# Data
-
+# Import and split data
 df = pd.read_csv('../data/advertising.csv')
 X = df[['Daily Time Spent on Site','Age','Area Income','Daily Internet Usage','Male']]
 y = df['Clicked on Ad']
@@ -11,7 +10,7 @@ y = df['Clicked on Ad']
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)
 
-# Support Vector Machine
+# Support Vector Machine investigation
 from sklearn import svm
 clf = svm.SVC()
 clf.fit(X_train,y_train)
