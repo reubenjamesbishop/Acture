@@ -21,8 +21,14 @@ class Data:
         return X, y
 
     def split_data(self):
-        """Split training and testing data with sklearn tool"""
+        """Split training and testing data with sklearn tool."""
 
         X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=0.3, random_state=101)
 
         return X_train, X_test, y_train, y_test
+
+    def assess_model(self, predictions):
+        """Assess model performance and accuracy."""
+
+        print(classification_report(self.y_test, predictions))
+        print(confusion_matrix(self.y_test, predictions))
